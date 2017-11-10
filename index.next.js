@@ -6,6 +6,7 @@ const ZERO = 0
 
 /**
  * Simple function convert in boolean any value and return true if its value was truthy
+ * @private
  * @param   {*} v - anything
  * @returns { Boolean } true if truthy
  */
@@ -13,6 +14,7 @@ const isTruthy = v => !!v
 
 /**
  * Get the max value from a list of arguments filtering the falsy values
+ * @private
  * @param   {...Number} args - list of numbers
  * @returns { Number } the highest value
  */
@@ -84,7 +86,7 @@ export function scrollTop() {
 
 /**
  * Return amount of px scrolled from the top of the document
- * @returns { Number } scroll top value in px
+ * @returns { Number } scroll left value in px
  */
 export function scrollLeft() {
   return max(
