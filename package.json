@@ -1,0 +1,38 @@
+{
+  "name": "bianco.viewport",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "jsnext:main": "index.next.js",
+  "module": "index.next.js",
+  "scripts": {
+    "prepare": "npm run build && npm test",
+    "lint": "eslint index.next.js test.js rollup.config.js",
+    "build": "rollup -c",
+    "doc": "documentation readme index.next.js -s API",
+    "test": "npm run lint && mocha test.js"
+  },
+  "files": [
+    "index.js",
+    "index.next.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biancojs/viewport.git"
+  },
+  "keywords": [
+    "es6",
+    "es2015"
+  ],
+  "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (http://gianlucaguarini.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/biancojs/viewport/issues"
+  },
+  "homepage": "https://github.com/biancojs/viewport#readme",
+  "devDependencies": {
+    "jsdom": "9.5.0",
+    "jsdom-global": "2.1.0",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  }
+}
