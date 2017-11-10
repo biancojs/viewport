@@ -7,14 +7,6 @@
 [![MIT License][license-image]][license-url]
 
 
-
-## Usage
-
-```js
-import $ from 'bianco.viewport'
-
-```
-
 [travis-image]:https://img.shields.io/travis/biancojs/viewport.svg?style=flat-square
 [travis-url]:https://travis-ci.org/biancojs/viewport
 
