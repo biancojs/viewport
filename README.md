@@ -50,7 +50,7 @@ Returns **[Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 
 ### scrollLeft
 
-Return amount of px scrolled from the top of the document
+Return amount of px scrolled from the left of the document
 
 Returns **[Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)** scroll left value in px
 
@@ -63,3 +63,13 @@ Get the offset top of any DOM element
 -   `el` **[HTMLElement](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)** the element we need to check
 
 Returns **[Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)** the element y position in px
+
+### elementOffsetLeft
+
+Get the offset left of any DOM element
+
+**Parameters**
+
+-   `el` **[HTMLElement](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)** the element we need to check
+
+Returns **[Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)** the element x position in px

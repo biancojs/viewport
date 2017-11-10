@@ -85,7 +85,7 @@ export function scrollTop() {
 }
 
 /**
- * Return amount of px scrolled from the top of the document
+ * Return amount of px scrolled from the left of the document
  * @returns { Number } scroll left value in px
  */
 export function scrollLeft() {
@@ -104,4 +104,13 @@ export function scrollLeft() {
  */
 export function elementOffsetTop(el) {
   return max(scrollTop() + el.getBoundingClientRect().top)
+}
+
+/**
+ * Get the offset left of any DOM element
+ * @param { HTMLElement } el - the element we need to check
+ * @returns { Number } the element x position in px
+ */
+export function elementOffsetLeft(el) {
+  return max(scrollLeft() + el.getBoundingClientRect().left)
 }

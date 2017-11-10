@@ -36,4 +36,10 @@ describe('Bianco viewport', function() {
     assert.equal(typeof viewport.elementOffsetTop(div), 'number')
     assert.ok(notNaN(viewport.elementOffsetTop(div)))
   })
+
+  it('elementOffsetLeft is a number', function() {
+    const div = document.createElement('div')
+    assert.equal(typeof viewport.elementOffsetLeft(div), 'number')
+    assert.ok(notNaN(viewport.elementOffsetLeft(div)))
+  })
 })
