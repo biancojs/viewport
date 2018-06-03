@@ -1,7 +1,6 @@
 require('jsdom-global')()
 const assert = require('assert')
 const viewport = require('./')
-const body = document.body
 
 const notNaN = v => !isNaN(v)
 
