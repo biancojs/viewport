@@ -1,6 +1,6 @@
 {
   "name": "bianco.viewport",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "jsnext:main": "index.next.js",
