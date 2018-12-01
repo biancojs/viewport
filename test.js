@@ -5,6 +5,18 @@ const viewport = require('./')
 const notNaN = v => !isNaN(v)
 
 describe('Bianco viewport', function() {
+  it('export default contains all the module methods', function() {
+    assert.deepEqual(Object.keys(viewport.default), [
+      'scrollbarWidth',
+      'documentHeight',
+      'documentWidth',
+      'scrollTop',
+      'scrollLeft',
+      'elementOffsetTop',
+      'elementOffsetLeft'
+    ])
+  })
+
   it('scrollbarWidth is a number', function() {
     assert.equal(typeof viewport.scrollbarWidth(), 'number')
     assert.ok(notNaN(viewport.scrollbarWidth()))

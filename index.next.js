@@ -114,3 +114,13 @@ export function elementOffsetTop(el) {
 export function elementOffsetLeft(el) {
   return max(scrollLeft() + el.getBoundingClientRect().left)
 }
+
+export default {
+  scrollbarWidth,
+  documentHeight,
+  documentWidth,
+  scrollTop,
+  scrollLeft,
+  elementOffsetTop,
+  elementOffsetLeft
+}
