@@ -1,7 +1,6 @@
 # bianco.viewport
 
-[![Build Status][travis-image]][travis-url]
-
+[![Build Status][ci-image]][ci-url]
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-url]
 [![MIT License][license-image]][license-url]
@@ -15,9 +14,8 @@ import viewport from 'bianco.viewport'
 const offsetTop = viewport.scrollTop()
 ```
 
-[travis-image]: https://img.shields.io/travis/biancojs/viewport.svg?style=flat-square
-
-[travis-url]: https://travis-ci.org/biancojs/viewport
+[ci-image]:https://img.shields.io/github/workflow/status/biancojs/viewport/test?style=flat-square
+[ci-url]:https://github.com/biancojs/viewport/actions
 
 [license-image]: http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
 
