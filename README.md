@@ -14,7 +14,7 @@ import viewport from 'bianco.viewport'
 const offsetTop = viewport.scrollTop()
 ```
 
-[ci-image]:https://img.shields.io/github/workflow/status/biancojs/viewport/test?style=flat-square
+[ci-image]:https://img.shields.io/github/actions/workflow/status/biancojs/viewport/test.yml?style=flat-square
 [ci-url]:https://github.com/biancojs/viewport/actions
 
 [license-image]: http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
